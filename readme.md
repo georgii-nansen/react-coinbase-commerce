@@ -66,7 +66,7 @@ In addition to the regular `button` props, this component accepts some custom pr
 ### Data Types
 ```typescript
 type MessageData = {
-  event: 'charge_confirmed' | 'charge_failed' 'payment_detected',
+  event: 'charge_confirmed' | 'charge_failed' | 'payment_detected',
   code: <CHARGE_CODE>
 }
 ```
